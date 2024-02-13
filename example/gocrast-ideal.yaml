@@ -1,0 +1,30 @@
+# Luck percentage
+luck: 5%
+
+everyday:
+  # Blocks for everyday
+  - block_start: 8:00
+    block_end: 16:00
+    block_list:
+      - twitter.com
+
+  # Another block for everyday
+  - block_start: 8:00
+    block_end: 16:00
+    block_list:
+      - reddit.com
+
+weekdays:
+  # Blocks for weekdays
+  block_start: 6:00
+  block_end: 20:00
+  lunch_start: 12:00
+  lunch_end: 13:00
+  block_list:
+    - facebook.com
+    - youtube.com
+
+redirects:
+  - dev.to
+  - linkedin.com
+  - https://github.com/explore

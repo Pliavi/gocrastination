@@ -1,0 +1,10 @@
+everyday:
+  start: 480 # 8h == 8 * 60 = 480
+  end: 1320 # 18h == 18*60 = 1080
+  sites:
+    - twitter.com
+
+redirects:
+  - dev.to
+  - linkedin.com
+  - https://github.com/explore
