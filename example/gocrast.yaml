@@ -3,8 +3,6 @@ everyday:
   end: 1320 # 18h == 18*60 = 1080
   sites:
     - twitter.com
-
-redirects:
-  - dev.to
-  - linkedin.com
-  - https://github.com/explore
+    - facebook.com
+    - instagram.com
+    - reddit.com
