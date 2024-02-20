@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Pliavi/gocrastination/main/assets/logo.png">
+  <img src="./assets/logo.png">
 </p>
 
 # GoCrastination Proxy
