@@ -1,8 +1,6 @@
-<center>
-
-![./assets/logo.png](./assets/logo.png)
-
-</center>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Pliavi/gocrastination/main/assets/logo.png">
+</p>
 
 # GoCrastination Proxy
 
