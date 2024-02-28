@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/logo2.png">
+  <img src="./docs/logo.png">
 </p>
 
 # GoCrastination Proxy
