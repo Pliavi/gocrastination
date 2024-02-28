@@ -1,4 +1,4 @@
-package internal
+package site_blocker_config
 
 import (
 	"os"
@@ -16,7 +16,7 @@ type SiteBlockerConfig struct {
 	}
 }
 
-func CreateSiteBlockerConfig(path string) *SiteBlockerConfig {
+func NewSiteBlockerConfig(path string) *SiteBlockerConfig {
 	data, err := os.ReadFile(path)
 	if err != nil {
 		panic(err)
