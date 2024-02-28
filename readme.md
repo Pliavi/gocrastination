@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo2.png">
+  <img src="./docs/logo2.png">
 </p>
 
 # GoCrastination Proxy
@@ -74,3 +74,29 @@ everyday:
 ## Contributing
 
 Contributions are welcome! If you have any ideas for improvement, feature requests, or bug reports, please open an issue on GitHub or submit a pull request.
+
+## Roadmap
+
+- [ ] **Site Blocking Configuration:**
+
+  - [x] Implement the ability to block access to specific sites using a YAML-defined list of URLs.
+  - [ ] Allow configuration of blocking schedules for different days of the week.
+
+- [ ] **Redirection Personalization:**
+
+  - [ ] **SSL Certificate Issue Resolution:**
+    - [ ] Investigate solutions to bypass the invalid certificate issue when using the Man-in-the-Middle method for redirection.
+    - [ ] Explore viable alternatives that ensure connection security without compromising proxy functionality.
+  - [ ] Develop the functionality to redirect blocked sites to other designated sites.
+  - [ ] Enable the creation of a list of alternative redirects for each blocked site, with the option for random selection.
+
+- [ ] **Configuration Improvements:**
+
+  - [ ] Simplify the setup process for users, eliminating the need to manually point to configuration files unless preferred.
+
+- [ ] **Testing:**
+
+  - Improve the testing of the proxy, including unit tests for the core functionality.
+
+- [ ] **Documentation:**
+  - Prepare comprehensive documentation describing the installation, configuration, and usage of the reverse proxy.
